@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#1AE8D7"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#6E1A35"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:text="NOMBRE LOCAL" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#303771"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="DESCRIPCIÓN" />
+
+    <TextView
+
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="AQUI VA LA DESCRIPCIÓN"/>
+
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Regresar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/imagen3"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

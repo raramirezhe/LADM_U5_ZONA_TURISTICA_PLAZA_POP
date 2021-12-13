@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897454535477",
+    "project_id": "unidad5-9103e",
+    "storage_bucket": "unidad5-9103e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897454535477:android:fc4083570a8334f63a127c",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ldm_u5_ejercicio4_geomapatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897454535477-iis8md37939dk5a6k4nu4m7r1b5i6hqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfsiFg-cIUv0YwOGYOA8czRi-_ykMxDvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897454535477-iis8md37939dk5a6k4nu4m7r1b5i6hqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
